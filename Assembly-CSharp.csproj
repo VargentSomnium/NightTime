@@ -836,6 +836,18 @@
       <Project>{631892DC-0CFC-75E6-6B00-61713764C118}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj">
+      <Project>{6FF9A9B9-01F9-F1CB-8DCC-D5DCD7992389}</Project>
+      <Name>Unity.RenderPipelines.HighDefinition.Config.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Runtime.csproj">
+      <Project>{A5988A1B-5E2A-4352-28A9-1092AC222284}</Project>
+      <Name>Unity.RenderPipelines.HighDefinition.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Editor.csproj">
+      <Project>{7F166922-0F16-0A16-136F-D8DAB6B52030}</Project>
+      <Name>Unity.RenderPipelines.HighDefinition.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
